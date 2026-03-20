@@ -1,0 +1,25 @@
+url: "https://send.help"
+
+endpoint: "/predict"
+
+header: headless
+
+response: |-
+  {
+    "meta": {
+      ...
+    },
+    "data": [
+      ...
+    ]
+  }
+
+request: |-
+  {
+    "meta": {
+      ...
+    },
+    "data": [
+      ...
+    ]
+  }

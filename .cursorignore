@@ -1,0 +1,25 @@
+# Dependencies
+.venv/
+__pycache__/
+
+# Data files (often large)
+data/
+*.csv
+*.json
+*.parquet
+
+# Secrets
+.env
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/

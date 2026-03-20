@@ -1,0 +1,41 @@
+---
+description: "How to use the centralized configuration system"
+alwaysApply: true
+---
+
+# Configuration Pattern
+
+Always use the centralized config system via the singleton `Config` class:
+
+```python
+from customer_support_agent.utils.config import get_config
+
+config = get_config()
+config.validate()
+
+# Access YAML settings via dot notation (from config.yml)
+config.model.name           # "claude-sonnet-4-5"
+config.model.temperature    # 0.7
+config.model.max_tokens     # 4096
+config.project.name         # "Modular Agentic Chatbot Demo"
+config.rag.collection_name  # "crm_knowledge_base"
+config.demo.questions       # List of demo questions
+
+# Access secrets (from .env)
+config.anthropic_api_key    # ANTHROPIC_API_KEY
+config.opik_api_key         # OPIK_API_KEY or COMET_API_KEY
+config.opik_workspace       # OPIK_WORKSPACE
+config.opik_project_name    # OPIK_PROJECT_NAME
+```
+
+## Configuring Opik
+
+Use the built-in `configure_opik()` method which handles singleton configuration:
+
+```python
+config = get_config()
+config.validate()
+config.configure_opik()  # Only configures once, safe to call multiple times
+```
+
+**Important**: The config module loads `.env` at import time to ensure `OPIK_PROJECT_NAME` is available before Opik is imported anywhere.

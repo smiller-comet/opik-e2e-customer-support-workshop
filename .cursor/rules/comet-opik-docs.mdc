@@ -1,0 +1,30 @@
+---
+description: "Reference documentation for Comet and Opik - consult these when writing code"
+alwaysApply: true
+---
+
+# Comet & Opik Documentation Reference
+
+When writing code related to Comet or Opik, consult the following documentation sources:
+
+## Primary Documentation
+
+- **Comet EM Docs**: https://www.comet.com/docs/v2/
+  - Comet Changelog: https://www.comet.com/docs/v2/guides/changelog/
+- **Python SDK**: https://www.comet.com/docs/v2/api-and-sdk/python-sdk/
+- **Opik Docs**: https://www.comet.com/docs/opik/
+  - Opik Changelog: https://www.comet.com/docs/opik/changelog
+- **REST API**: https://www.comet.com/docs/v2/api-and-sdk/rest-api/
+- **Deployment Docs**: https://cometml.github.io/
+
+## GitHub Repositories
+
+- **Opik Repository**: https://github.com/comet-ml/opik
+- **Comet Examples**: https://github.com/comet-ml/comet-examples
+
+## Usage Guidelines
+
+When implementing features or fixing issues:
+1. Check the relevant documentation for the latest API patterns
+2. Review the changelogs for recent updates that may affect implementation
+3. Consult the GitHub repositories for code examples and best practices

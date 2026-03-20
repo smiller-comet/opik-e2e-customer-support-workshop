@@ -1,0 +1,24 @@
+---
+description: "How to integrate Opik tracing with LLM calls"
+alwaysApply: true
+---
+
+# Opik Integration
+
+When adding LLM calls, always integrate Opik tracing:
+
+Example for Anthropic:
+```python
+import opik
+from opik.integrations.anthropic import track_anthropic
+
+# Wrap the Anthropic client
+client = track_anthropic(anthropic.Anthropic())
+
+# Use @opik.track decorator for custom functions
+@opik.track
+def my_function():
+    pass
+```
+
+Search the [Opik docs](https://www.comet.com/docs/opik/) for other framework examples

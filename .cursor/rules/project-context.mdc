@@ -1,0 +1,27 @@
+---
+description: "Project overview and structure for the Opik demo chatbot"
+alwaysApply: true
+---
+
+# Project Context
+
+This is an Opik demo project for client demonstrations. It uses:
+- Python 3.12+ with Poetry for dependency management
+- Anthropic Claude (claude-sonnet-4-5) as the LLM provider
+- Opik for LLM observability and tracing
+
+## Project Structure
+
+- `app.py` - Main application entrypoint
+- `config.yml` - Model parameters and project settings (non-secrets)
+- `.env` - API keys and secrets (from `.env.example`)
+- `src/customer_support_agent/` - Package source code
+- `src/customer_support_agent/utils/config.py` - Unified config loader
+
+## Common Commands
+
+- `make setup` - Install dependencies and pre-commit hooks
+- `make run` - Run the application
+- `make test` - Run tests
+- `make format` - Format code with ruff
+- `make lint` - Check code with ruff

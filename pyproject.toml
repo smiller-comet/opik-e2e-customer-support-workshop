@@ -1,0 +1,85 @@
+[project]
+name = "customer-support-agent"
+version = "0.1.0"
+description = "Customer support agent for hands-on self-serve Opik workshop"
+authors = [
+    {name = "Solution Engineering",email = "se@comet.com"}
+]
+license = "All rights reserved"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "anthropic (>=0.40.0,<1.0.0)",
+    "litellm (>=1.50.0,<2.0.0)",
+    "opik-optimizer (>=2.2.2,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "pyyaml (>=6.0.1,<7.0.0)",
+    "streamlit (>=1.28.0,<2.0.0)",
+    "chromadb (>=0.6.0,<1.0.0)",
+    "pandas (>=2.0.0,<3.0.0)",
+    "openai (>=1.0.0,<2.0.0)",
+    "tabulate (>=0.9.0,<1.0.0)",
+]
+
+[tool.poetry]
+packages = [
+    { include = "customer_support_agent", from = "src" },
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+mypy = "^1.14.0"
+ipykernel = "^6.29.4"
+pre-commit = "^4.1.0"
+ruff = "^0.9.3"
+commitizen = "^3.27.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+# Same as Black.
+line-length = 140
+
+# Assume Python 3.12.
+target-version = "py312"
+
+# Specify the source directory for import sorting and other path-dependent checks.
+src = ["src"]
+
+[tool.ruff.lint]
+# Enable Pyflakes (F) and pycodestyle (E, W) and McCabe (C90) complexity.
+select = ["F", "E", "W", "C90"]
+ignore = ["E402"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/customer_support_agent/prompts.py" = ["E501"]
+
+# Allow unused variables when underscore-prefixed.
+# dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_provider = "poetry"
+version_files = [
+    "pyproject.toml:version",
+    "src/customer_support_agent/__init__.py:__version__" # Assuming you might have version here
+]
+# You can add more commitizen settings if needed, like update_changelog_on_bump

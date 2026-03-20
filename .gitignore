@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE folders
+.vscode/
+.idea/
+*_app
+*pytest_cache
+*joblib
+*tmp
+*profiling
+*logs
+*docker
+*drivers
+
+# Python specific files
+__pycache__/
+*.py[cod]
+*.ipynb
+*.ipynb_checkpoints
+
+# file extensions
+*.log
+*.csv
+*.json
+*.pkl
+*.profile
+*.cbm
+
+# temp files
+*.swp
+*~
+*.un~
+
+# Keep these (override ignores above)
+!notebooks/*.ipynb
+!.env.example
+!.cursor/*
+!data/*.json

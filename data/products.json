@@ -1,0 +1,283 @@
+[
+  {
+    "product_id": "AUDIO-101",
+    "name": "NexusWave Pro Headphones",
+    "description": "Premium noise-cancelling wireless headphones with 40-hour battery life and crystal-clear audio",
+    "price": 149.99,
+    "category": "Audio",
+    "in_stock": true
+  },
+  {
+    "product_id": "AUDIO-102",
+    "name": "SonicBlast Studio Headphones",
+    "description": "Professional studio headphones with deep bass and noise isolation, perfect for music production",
+    "price": 119.99,
+    "category": "Audio",
+    "in_stock": true
+  },
+  {
+    "product_id": "AUDIO-103",
+    "name": "AirStream Wireless Earbuds",
+    "description": "Lightweight wireless earbuds with 12-hour battery and quick charge technology",
+    "price": 79.99,
+    "category": "Audio",
+    "in_stock": true
+  },
+  {
+    "product_id": "WEAR-201",
+    "name": "PulseSync Fitness Tracker",
+    "description": "Advanced fitness tracking smartwatch with heart rate monitor, GPS, and 7-day battery life",
+    "price": 249.99,
+    "category": "Wearables",
+    "in_stock": true
+  },
+  {
+    "product_id": "WEAR-202",
+    "name": "FitZone Activity Band",
+    "description": "Budget-friendly fitness tracker with step counting, sleep tracking, and 10-day battery",
+    "price": 89.99,
+    "category": "Wearables",
+    "in_stock": true
+  },
+  {
+    "product_id": "WEAR-203",
+    "name": "ProActive Sports Watch",
+    "description": "Rugged sports watch with GPS, water resistance, and advanced workout tracking",
+    "price": 199.99,
+    "category": "Wearables",
+    "in_stock": true
+  },
+  {
+    "product_id": "CASE-301",
+    "name": "ShieldMax Phone Protector",
+    "description": "Military-grade protective case with shock absorption and screen protection",
+    "price": 34.99,
+    "category": "Accessories",
+    "in_stock": true
+  },
+  {
+    "product_id": "CASE-302",
+    "name": "ClearGuard Transparent Case",
+    "description": "Slim transparent case that shows off your phone while providing protection",
+    "price": 24.99,
+    "category": "Accessories",
+    "in_stock": true
+  },
+  {
+    "product_id": "DESK-401",
+    "name": "ElevateDesk Adjustable Stand",
+    "description": "Ergonomic aluminum laptop stand with adjustable height and ventilation",
+    "price": 79.99,
+    "category": "Office",
+    "in_stock": true
+  },
+  {
+    "product_id": "DESK-402",
+    "name": "CompactDesk Mini Stand",
+    "description": "Space-saving laptop stand perfect for small desks and portable setups",
+    "price": 49.99,
+    "category": "Office",
+    "in_stock": true
+  },
+  {
+    "product_id": "CABLE-501",
+    "name": "PowerFlow USB-C Charger",
+    "description": "6ft fast-charging USB-C cable with braided design and data transfer support",
+    "price": 19.99,
+    "category": "Accessories",
+    "in_stock": true
+  },
+  {
+    "product_id": "AUDIO-601",
+    "name": "SoundSphere Portable Speaker",
+    "description": "Waterproof Bluetooth speaker with 360-degree sound and 15-hour battery",
+    "price": 129.99,
+    "category": "Audio",
+    "in_stock": true
+  },
+  {
+    "product_id": "AUDIO-602",
+    "name": "BassBoom Party Speaker",
+    "description": "High-powered portable speaker with deep bass and LED lights for parties",
+    "price": 159.99,
+    "category": "Audio",
+    "in_stock": true
+  },
+  {
+    "product_id": "MOUSE-701",
+    "name": "PrecisionPoint Wireless Mouse",
+    "description": "Ergonomic wireless mouse with precision tracking and long battery life",
+    "price": 49.99,
+    "category": "Office",
+    "in_stock": false
+  },
+  {
+    "product_id": "MOUSE-702",
+    "name": "SpeedClick Gaming Mouse",
+    "description": "High-DPI gaming mouse with RGB lighting and programmable buttons",
+    "price": 69.99,
+    "category": "Office",
+    "in_stock": true
+  },
+  {
+    "product_id": "TABLET-801",
+    "name": "FlexStand Tablet Mount",
+    "description": "Adjustable stand for tablets and e-readers with flexible positioning",
+    "price": 39.99,
+    "category": "Office",
+    "in_stock": true
+  },
+  {
+    "product_id": "AUDIO-901",
+    "name": "BassBoost Earbuds",
+    "description": "True wireless earbuds with active noise cancellation and 8-hour battery",
+    "price": 89.99,
+    "category": "Audio",
+    "in_stock": true
+  },
+  {
+    "product_id": "CABLE-1001",
+    "name": "MultiCharge Cable Set",
+    "description": "3-in-1 charging cable set with USB-C, Lightning, and Micro-USB connectors",
+    "price": 29.99,
+    "category": "Accessories",
+    "in_stock": true
+  },
+  {
+    "product_id": "GAME-1101",
+    "name": "NexGen Pro Gaming Console",
+    "description": "Latest generation gaming console with 4K gaming, ray tracing, and exclusive titles",
+    "price": 499.99,
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "product_id": "GAME-1102",
+    "name": "PlayStation 5",
+    "description": "Sony PlayStation 5 with ultra-fast SSD, 3D audio, and DualSense controller",
+    "price": 499.99,
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "product_id": "GAME-1103",
+    "name": "Xbox Series X",
+    "description": "Microsoft Xbox Series X with 4K gaming, backward compatibility, and Game Pass",
+    "price": 499.99,
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "product_id": "GAME-1104",
+    "name": "Nintendo Switch OLED",
+    "description": "Nintendo Switch with vibrant OLED screen, enhanced audio, and portable gaming",
+    "price": 349.99,
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "product_id": "GAME-1201",
+    "name": "ProGamer Controller",
+    "description": "Professional gaming controller with customizable buttons and haptic feedback",
+    "price": 79.99,
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "product_id": "GAME-1202",
+    "name": "Racing Wheel Pro",
+    "description": "Force feedback racing wheel with pedals for realistic driving simulation",
+    "price": 299.99,
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "product_id": "GAME-1203",
+    "name": "FightStick Arcade Controller",
+    "description": "Arcade-style fight stick with mechanical buttons for fighting games",
+    "price": 149.99,
+    "category": "Gaming",
+    "in_stock": true
+  },
+  {
+    "product_id": "TV-1301-55",
+    "name": "CrystalView 4K Smart TV - 55 inch",
+    "description": "55-inch 4K UHD Smart TV with HDR, voice control, and streaming apps",
+    "price": 599.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "55 inch"
+  },
+  {
+    "product_id": "TV-1301-65",
+    "name": "CrystalView 4K Smart TV - 65 inch",
+    "description": "65-inch 4K UHD Smart TV with HDR, voice control, and streaming apps",
+    "price": 899.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "65 inch"
+  },
+  {
+    "product_id": "TV-1301-75",
+    "name": "CrystalView 4K Smart TV - 75 inch",
+    "description": "75-inch 4K UHD Smart TV with HDR, voice control, and streaming apps",
+    "price": 1299.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "75 inch"
+  },
+  {
+    "product_id": "TV-1302-55",
+    "name": "UltraBright OLED TV - 55 inch",
+    "description": "55-inch OLED TV with perfect blacks, Dolby Vision, and premium sound",
+    "price": 1299.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "55 inch"
+  },
+  {
+    "product_id": "TV-1302-65",
+    "name": "UltraBright OLED TV - 65 inch",
+    "description": "65-inch OLED TV with perfect blacks, Dolby Vision, and premium sound",
+    "price": 1899.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "65 inch"
+  },
+  {
+    "product_id": "TV-1302-75",
+    "name": "UltraBright OLED TV - 75 inch",
+    "description": "75-inch OLED TV with perfect blacks, Dolby Vision, and premium sound",
+    "price": 2499.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "75 inch"
+  },
+  {
+    "product_id": "TV-1303-55",
+    "name": "BudgetSmart LED TV - 55 inch",
+    "description": "55-inch LED Smart TV with 4K resolution and built-in streaming",
+    "price": 399.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "55 inch"
+  },
+  {
+    "product_id": "TV-1303-65",
+    "name": "BudgetSmart LED TV - 65 inch",
+    "description": "65-inch LED Smart TV with 4K resolution and built-in streaming",
+    "price": 599.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "65 inch"
+  },
+  {
+    "product_id": "TV-1303-75",
+    "name": "BudgetSmart LED TV - 75 inch",
+    "description": "75-inch LED Smart TV with 4K resolution and built-in streaming",
+    "price": 899.99,
+    "category": "TVs",
+    "in_stock": true,
+    "size": "75 inch"
+  }
+]

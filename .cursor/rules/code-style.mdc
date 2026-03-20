@@ -1,0 +1,20 @@
+---
+description: "Python code style and formatting conventions"
+alwaysApply: true
+---
+
+# Code Style
+
+Make sure to follow common software engineering best practices:
+- DRY
+- KISS
+- SOLID
+- YAGNI
+
+## Formatting
+
+- Use ruff for formatting and linting (configured in pyproject.toml)
+- Line length: 140 characters
+- Use double quotes for strings
+- Type hints are expected (mypy is configured)
+- Follow Google-style docstrings
