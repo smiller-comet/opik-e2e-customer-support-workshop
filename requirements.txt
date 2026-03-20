@@ -1,6 +1,6 @@
 anthropic>=0.40.0
 litellm>=1.50.0
-opik-optimizer>=2.2.2
+opik>=1.0.0
 python-dotenv>=1.2.1
 pyyaml>=6.0.1
 streamlit>=1.28.0
